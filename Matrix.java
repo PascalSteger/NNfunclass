@@ -2,9 +2,10 @@ import com.sun.org.apache.xerces.internal.impl.dv.DatatypeException;
 
 /**
  * Matrix: provides all basic matrix manipulation tasks
- * 
+ *
  * @author psteger
  * @date Aug 4, 2010
+ * @copyright GPL v3.0
  */
 public class Matrix {
 	private Double[][]	M_;
@@ -359,7 +360,7 @@ public class Matrix {
 
 	/**
 	 * test routine, containing some basic linear algebra
-	 * 
+	 *
 	 * @param args
 	 * @throws DatatypeException
 	 */

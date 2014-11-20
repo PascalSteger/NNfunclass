@@ -2,9 +2,10 @@ import java.util.Vector;
 
 /**
  * LinSup: linear superposition of functions
- * 
+ *
  * @author psteger
  * @date Jun 2, 2010
+ * @copyright GPL v3.0
  */
 public class LinSup {
 	// holds all functions
@@ -21,7 +22,7 @@ public class LinSup {
 
 	/**
 	 * constructor with one known function
-	 * 
+	 *
 	 * @param sf
 	 */
 	public LinSup(final SFunction sf) {
@@ -31,7 +32,7 @@ public class LinSup {
 
 	/**
 	 * copy constructor
-	 * 
+	 *
 	 * @param l other LinSup
 	 */
 	public LinSup(final LinSup l) {
@@ -41,7 +42,7 @@ public class LinSup {
 
 	/**
 	 * attach another SFunction
-	 * 
+	 *
 	 * @param f SFunction
 	 */
 	public void add( final SFunction f ) {
@@ -50,7 +51,7 @@ public class LinSup {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
@@ -64,7 +65,7 @@ public class LinSup {
 
 	/**
 	 * evaluate all functions at a given point and sum up
-	 * 
+	 *
 	 * @param x point @ which functions are evaluated
 	 * @return value of f1(x)+f2(x)+..._fn(x)
 	 */

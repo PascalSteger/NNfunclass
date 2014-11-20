@@ -1,7 +1,8 @@
 /**
  * FFitGen: Genetic programming for function fitting
- * 
+ *
  * @author psteger
+ * @copyright GPL v3.0
  */
 public class FFitGen extends Fitter {
 	private Population	pop_;
@@ -15,7 +16,7 @@ public class FFitGen extends Fitter {
 
 	/**
 	 * use input, where possible
-	 * 
+	 *
 	 * @param in
 	 */
 	public FFitGen(final Input in) {

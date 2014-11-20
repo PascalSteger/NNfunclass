@@ -6,9 +6,10 @@ import com.sun.org.apache.xerces.internal.impl.dv.DatatypeException;
 /**
  * Network: first we create a network with two hidden layers then we look for
  * generalization
- * 
+ *
  * @author psteger
  * @date Jun 5, 2010
+ * @copyright GPL v3.0
  */
 public class Network {
 	// number of neurons:
@@ -131,7 +132,7 @@ public class Network {
 
 	/**
 	 * read in training data
-	 * 
+	 *
 	 * @param tt_in
 	 * @param tt_out
 	 */
@@ -142,7 +143,7 @@ public class Network {
 
 	/**
 	 * get total number of neurons
-	 * 
+	 *
 	 * @return dim of network
 	 */
 	public int getDim() {
@@ -151,7 +152,7 @@ public class Network {
 
 	/**
 	 * set input weights in input layer; x,y on odd/even places
-	 * 
+	 *
 	 * @param in Input (n times [1,2] matrix)
 	 */
 	public void setInput( final Input in ) {
@@ -169,7 +170,7 @@ public class Network {
 
 	/**
 	 * set input weights from direct input, not Input procedure from FFitNN
-	 * 
+	 *
 	 * @param in Vector<Double> of length dim_in
 	 */
 	public void setInput( final Matrix in ) {
@@ -180,7 +181,7 @@ public class Network {
 
 	/**
 	 * read in wished output
-	 * 
+	 *
 	 * @param tar
 	 */
 	public void setTarget( Matrix tar ) {
@@ -189,7 +190,7 @@ public class Network {
 
 	/**
 	 * apply neural network on input (read in before)
-	 * 
+	 *
 	 * @param a parameter in sigmoid output function
 	 * @return output Matrix
 	 */
@@ -257,7 +258,7 @@ public class Network {
 
 	/**
 	 * learn weights
-	 * 
+	 *
 	 * @param eta learning parameter
 	 */
 	public void correctW( Double eta ) {
@@ -276,7 +277,7 @@ public class Network {
 	/**
 	 * train network with a given number of iterations, learning rate and
 	 * output function parameter
-	 * 
+	 *
 	 * @param nitmax
 	 * @param a
 	 * @param eta
@@ -297,7 +298,7 @@ public class Network {
 
 	/**
 	 * apply network on a given input
-	 * 
+	 *
 	 * @param in
 	 * @param a
 	 * @return
@@ -309,7 +310,7 @@ public class Network {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
@@ -328,7 +329,7 @@ public class Network {
 
 	/**
 	 * test routine: learn simple logic functions
-	 * 
+	 *
 	 * @param args
 	 * @throws DatatypeException
 	 */

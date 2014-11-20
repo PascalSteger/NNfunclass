@@ -2,8 +2,9 @@ import java.util.Vector;
 
 /**
  * FFitFFT: chi^2 fitting from comparison with given FFT of functions
- * 
+ *
  * @author psteger
+ * @copyright GPL v3.0
  */
 public class FFitFFT extends Fitter {
 	private Double[]	freq_;
@@ -17,7 +18,7 @@ public class FFitFFT extends Fitter {
 
 	/**
 	 * use given input
-	 * 
+	 *
 	 * @param in
 	 */
 	public FFitFFT(final Input in) {

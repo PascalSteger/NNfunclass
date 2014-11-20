@@ -1,8 +1,9 @@
 /**
  * Classificator: main program
- * 
+ *
  * @author psteger
  * @date Jun 2, 2010
+ * @copyright GPL v3.0
  */
 public class Classificator {
 	private Input	in_;
@@ -18,7 +19,7 @@ public class Classificator {
 
 	/**
 	 * constructor to activate other fitters
-	 * 
+	 *
 	 * @param type type of fitter, 1: NN, 2: holoN, 3: genetic, 4: Cluster
 	 */
 	public Classificator(final int type) {
@@ -43,7 +44,7 @@ public class Classificator {
 
 	/**
 	 * read in known data
-	 * 
+	 *
 	 * @param in input
 	 */
 	public void setInput( final Input in ) {

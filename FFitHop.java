@@ -1,8 +1,9 @@
 /**
  * discrete Hopfield network; learning by a converging to a set of training
  * arrays
- * 
+ *
  * @author Pascal Steger
+ * @copyright GPL v3.0
  */
 
 public class FFitHop extends Fitter {
@@ -16,7 +17,7 @@ public class FFitHop extends Fitter {
 
 	/**
 	 * constructor with a given Input
-	 * 
+	 *
 	 * @param in
 	 */
 	public FFitHop(final Input in) {

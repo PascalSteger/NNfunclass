@@ -1,7 +1,8 @@
 /**
  * HoloNeuron: holographic neuron, with complex phase
- * 
+ *
  * @author psteger
+ * @copyright GPL v3.0
  */
 public class HoloNeuron {
 	// store one complex number in polar coordinates
@@ -18,7 +19,7 @@ public class HoloNeuron {
 
 	/**
 	 * copy constructor
-	 * 
+	 *
 	 * @param h other HoloNeuron
 	 */
 	public HoloNeuron(final HoloNeuron h) {
@@ -28,7 +29,7 @@ public class HoloNeuron {
 
 	/**
 	 * learning phase
-	 * 
+	 *
 	 * @param in input
 	 */
 	public void learn( final Input in ) {
@@ -37,7 +38,7 @@ public class HoloNeuron {
 
 	/**
 	 * production phase
-	 * 
+	 *
 	 * @param in Input
 	 * @return activation level
 	 */
@@ -49,7 +50,7 @@ public class HoloNeuron {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Object#toString()
 	 */
 	@Override

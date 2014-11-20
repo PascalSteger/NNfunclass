@@ -10,9 +10,10 @@ import javax.swing.JPanel;
 /**
  * Visualization: graphical output of Input and LinSup evaluated, with formula
  * draw Input in normalized mode, fits as well! give formula in original mode
- * 
+ *
  * @author psteger
  * @date Aug 1, 2010
+ * @copyright GPL v3.0
  */
 public class Visualization extends JPanel {
 	private static final long	serialVersionUID	= 1L;
@@ -24,7 +25,7 @@ public class Visualization extends JPanel {
 
 	/**
 	 * default constructor
-	 * 
+	 *
 	 * @param in Input, normalized
 	 * @param fit Fitter object for normalized data
 	 */
@@ -48,7 +49,7 @@ public class Visualization extends JPanel {
 
 	/**
 	 * subroutine to draw an ellipse with semimajor axes a=b=r
-	 * 
+	 *
 	 * @param g Graphics2D
 	 * @param x position of center, x coordinate
 	 * @param y position of center, y coordinate
@@ -60,7 +61,7 @@ public class Visualization extends JPanel {
 
 	/**
 	 * draw all points with error bars
-	 * 
+	 *
 	 * @param g2d Graphics2D, plotting area
 	 */
 	void drawInput( final Graphics2D g2d ) {
@@ -119,7 +120,7 @@ public class Visualization extends JPanel {
 
 	/**
 	 * draw fitting formula
-	 * 
+	 *
 	 * @param g2d Graphics2D object to be drawn to
 	 */
 	void drawFit( final Graphics2D g2d ) {
@@ -160,7 +161,7 @@ public class Visualization extends JPanel {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see javax.swing.JComponent#paintComponent(java.awt.Graphics)
 	 */
 	@Override
@@ -180,7 +181,7 @@ public class Visualization extends JPanel {
 
 	/**
 	 * basic routine to open frame, show it
-	 * 
+	 *
 	 * @param vis
 	 */
 	public void show( final Visualization vis ) {
@@ -194,7 +195,7 @@ public class Visualization extends JPanel {
 
 	/**
 	 * test program
-	 * 
+	 *
 	 * @param args none
 	 */
 	public static void main( final String[] args ) {

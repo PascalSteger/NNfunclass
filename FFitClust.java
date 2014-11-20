@@ -1,7 +1,8 @@
 /**
  * FFitClust: Fitting by clustering Fourier components
- * 
+ *
  * @author psteger
+ * @copyright GPL v.3
  */
 public class FFitClust extends Fitter {
 	private Double[]	freq_;

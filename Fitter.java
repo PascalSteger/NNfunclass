@@ -1,8 +1,9 @@
 /**
  * Fitter: superclass for all fitting methods
- * 
+ *
  * @author psteger
  * @date Jun 3, 2010
+ * @copyright GPL v3.0
  */
 
 public class Fitter {
@@ -19,7 +20,7 @@ public class Fitter {
 
 	/**
 	 * if given input, use it
-	 * 
+	 *
 	 * @param in
 	 */
 	public Fitter(final Input in) {
@@ -31,7 +32,7 @@ public class Fitter {
 
 	/**
 	 * copy constructor
-	 * 
+	 *
 	 * @param fit_
 	 */
 	public Fitter(final Fitter fit) {
@@ -45,7 +46,7 @@ public class Fitter {
 
 	/**
 	 * for debug purposes only: override fitting, set given LinSup
-	 * 
+	 *
 	 * @param ls
 	 */
 	public void setLs( final LinSup ls ) {
@@ -54,7 +55,7 @@ public class Fitter {
 
 	/**
 	 * method that should be implemented by different AI procedures
-	 * 
+	 *
 	 * @return FForm of most dominant part of curve
 	 */
 	public SFunction findFunction() {
@@ -65,7 +66,7 @@ public class Fitter {
 
 	/**
 	 * subtract fitting formula from data points, renormalize
-	 * 
+	 *
 	 * @param f
 	 */
 	public void residual( final SFunction f ) {
@@ -77,7 +78,7 @@ public class Fitter {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
@@ -101,7 +102,7 @@ public class Fitter {
 
 	/**
 	 * test routine
-	 * 
+	 *
 	 * @param args
 	 */
 	public static void main( final String[] args ) {

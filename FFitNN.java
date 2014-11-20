@@ -5,9 +5,10 @@ import java.util.Vector;
 /**
  * FFitNN: feeds network with input/target pairs, invokes training, applies on
  * Input, returns most important function with scaling/transformation
- * 
+ *
  * @author psteger
  * @date Jun 5, 2010
+ * @copyright GPL v3.0
  */
 public class FFitNN extends Fitter {
 	private Network	n_;
@@ -29,7 +30,7 @@ public class FFitNN extends Fitter {
 
 	/**
 	 * constructor with given input
-	 * 
+	 *
 	 * @param in
 	 */
 	public FFitNN(Input in) {
@@ -50,7 +51,7 @@ public class FFitNN extends Fitter {
 
 	/**
 	 * constructor with a predefined number of hidden neurons
-	 * 
+	 *
 	 * @param nn
 	 */
 	public FFitNN(int nn) {
@@ -131,7 +132,7 @@ public class FFitNN extends Fitter {
 
 	/**
 	 * set new input
-	 * 
+	 *
 	 * @param in
 	 */
 	public void setInput( Input in ) {
@@ -140,7 +141,7 @@ public class FFitNN extends Fitter {
 
 	/**
 	 * apply network, show output
-	 * 
+	 *
 	 * @param a
 	 */
 	public void showApplication( double a ) {
@@ -160,7 +161,7 @@ public class FFitNN extends Fitter {
 
 	/**
 	 * show error as function of nit
-	 * 
+	 *
 	 * @param nnit
 	 * @param nitmax
 	 * @param a
@@ -194,7 +195,7 @@ public class FFitNN extends Fitter {
 
 	/**
 	 * determine error if up to 10% noise is added to signal
-	 * 
+	 *
 	 * @param nnit
 	 * @param nitmax
 	 * @param a
@@ -291,7 +292,7 @@ public class FFitNN extends Fitter {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see Fitter#learnFunction()
 	 */
 	@Override
@@ -338,7 +339,7 @@ public class FFitNN extends Fitter {
 
 	/**
 	 * determine error from all type/deg found
-	 * 
+	 *
 	 * @return
 	 */
 	public double findError() {
@@ -363,7 +364,7 @@ public class FFitNN extends Fitter {
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see Fitter#toString()
 	 */
 	@Override
@@ -375,7 +376,7 @@ public class FFitNN extends Fitter {
 
 	/**
 	 * test routine
-	 * 
+	 *
 	 * @param args
 	 */
 	public static void main( final String[] args ) {

@@ -1,7 +1,8 @@
 /**
  * Population: implementation of a population of genes
- * 
+ *
  * @author psteger
+ * @copyright GPL v3.0
  */
 public class Population {
 	private final Gen[]	pool_;
@@ -19,7 +20,7 @@ public class Population {
 
 	/**
 	 * constructor of a given number of individuals
-	 * 
+	 *
 	 * @param size
 	 */
 	public Population(final int size) {
@@ -29,7 +30,7 @@ public class Population {
 
 	/**
 	 * constructor with dim/elitism flag
-	 * 
+	 *
 	 * @param size
 	 * @param elitism
 	 */

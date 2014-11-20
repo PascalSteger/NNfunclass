@@ -1,8 +1,9 @@
 /**
  * Input: vectors of positions, errors; scaling and translation for [0,1]x[0,1]
- * 
+ *
  * @author psteger
  * @date Jun 2, 2010
+ * @copyright GPL v3.0
  */
 
 public class Input {
@@ -35,7 +36,7 @@ public class Input {
 
 	/**
 	 * constructor with given number of input values
-	 * 
+	 *
 	 * @param n number of input values
 	 */
 	public Input(final int n) {
@@ -58,7 +59,7 @@ public class Input {
 	/**
 	 * constructor for values near a given FForm, used to check network
 	 * function
-	 * 
+	 *
 	 * @param n
 	 * @param type
 	 * @param deg
@@ -83,7 +84,7 @@ public class Input {
 
 	/**
 	 * copy constructor
-	 * 
+	 *
 	 * @param in Input
 	 */
 	public Input(final Input in) {
@@ -177,7 +178,7 @@ public class Input {
 
 	/**
 	 * subtract a given function from dataset, holds residual afterwards
-	 * 
+	 *
 	 * @param f SFunction
 	 */
 	public void subtract( final SFunction f ) {

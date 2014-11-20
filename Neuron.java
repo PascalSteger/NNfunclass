@@ -3,9 +3,10 @@ import java.util.Vector;
 /**
  * Neuron: simplest form of mathematical neuron. sums up input*weight, applies
  * output function if threshold overcome
- * 
+ *
  * @author psteger
  * @date Jun 5, 2010
+ * @copyright GPL v3.0
  */
 public class Neuron {
 	// one FForm for each input channel
@@ -27,7 +28,7 @@ public class Neuron {
 
 	/**
 	 * constructor with a given number of input channels
-	 * 
+	 *
 	 * @param dim number of input channels
 	 */
 	public Neuron(final int dim) {
@@ -42,7 +43,7 @@ public class Neuron {
 
 	/**
 	 * set a fform as input function
-	 * 
+	 *
 	 * @param f
 	 */
 	public void setInput( final FForm f ) {
@@ -51,7 +52,7 @@ public class Neuron {
 
 	/**
 	 * set threshold for firing
-	 * 
+	 *
 	 * @param t
 	 */
 	public void setThresh( final double t ) {
@@ -60,7 +61,7 @@ public class Neuron {
 
 	/**
 	 * set output function
-	 * 
+	 *
 	 * @param f
 	 */
 	public void setOut( final FForm f ) {
@@ -73,7 +74,7 @@ public class Neuron {
 
 	/**
 	 * add all input weights, after evaluation of input function
-	 * 
+	 *
 	 * @param inw
 	 * @return
 	 */
@@ -101,7 +102,7 @@ public class Neuron {
 
 	/**
 	 * let a neuron fire, depending on activation>threshold
-	 * 
+	 *
 	 * @param inw input channels
 	 * @return output(activation(input))
 	 */
@@ -115,7 +116,7 @@ public class Neuron {
 
 	/**
 	 * test routine
-	 * 
+	 *
 	 * @param args
 	 */
 	public static void main( final String[] args ) {

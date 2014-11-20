@@ -1,8 +1,9 @@
 /**
  * FForm: basic function forms
- * 
+ *
  * @author psteger
  * @date Jun 2, 2010
+ * @copyright GPL v3.0
  */
 public class FForm {
 	private final int	type_;	// type of function
@@ -26,7 +27,7 @@ public class FForm {
 
 	/**
 	 * copy constructor
-	 * 
+	 *
 	 * @param f_
 	 */
 	public FForm(FForm f) {
@@ -36,7 +37,7 @@ public class FForm {
 
 	/**
 	 * evaluation at a given point x\in[0,1]
-	 * 
+	 *
 	 * @param x \in[0,1]
 	 * @return f(x)
 	 */
@@ -81,7 +82,7 @@ public class FForm {
 
 	/**
 	 * test routine
-	 * 
+	 *
 	 * @param args
 	 */
 	public static void main( final String[] args ) {

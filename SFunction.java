@@ -1,8 +1,9 @@
 /**
  * Simple Function
- * 
+ *
  * @author psteger
  * @date Jun 2, 2010
+ * @copyright GPL v3.0
  */
 public class SFunction {
 	private FForm	f_;
@@ -20,7 +21,7 @@ public class SFunction {
 
 	/**
 	 * constructor for SFunction with known FForm
-	 * 
+	 *
 	 * @param type
 	 * @param deg
 	 */
@@ -32,7 +33,7 @@ public class SFunction {
 
 	/**
 	 * copy constructor
-	 * 
+	 *
 	 * @param sf
 	 */
 	public SFunction(SFunction sf) {
@@ -43,7 +44,7 @@ public class SFunction {
 
 	/**
 	 * find value f(x)
-	 * 
+	 *
 	 * @param x point to evaluate at
 	 * @return f(x)
 	 */

@@ -1,7 +1,8 @@
 /**
  * FFitHN: holographic neuron network
- * 
+ *
  * @author psteger
+ * @copyright GPL v3.0
  */
 public class FFitHN extends Fitter {
 	private final HoloNeuron	hn_;
@@ -15,7 +16,7 @@ public class FFitHN extends Fitter {
 
 	/**
 	 * use input, if already set
-	 * 
+	 *
 	 * @param in
 	 */
 	public FFitHN(final Input in) {

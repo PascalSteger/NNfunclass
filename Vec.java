@@ -2,9 +2,10 @@ import java.text.DecimalFormat;
 
 /**
  * Vector
- * 
+ *
  * @author psteger
  * @date Jun 2, 2010
+ * @copyright GPL v3.0
  */
 public class Vec {
 	// holds x and y coordinates
@@ -22,7 +23,7 @@ public class Vec {
 
 	/**
 	 * generate new Vec with known x,y-values
-	 * 
+	 *
 	 * @param x position in first dimension
 	 * @param y position in second dimension
 	 */
@@ -33,7 +34,7 @@ public class Vec {
 
 	/**
 	 * copy constructor
-	 * 
+	 *
 	 * @param a value for new vector
 	 */
 	public Vec(final Vec a) {
@@ -43,7 +44,7 @@ public class Vec {
 
 	/**
 	 * set new x,y values
-	 * 
+	 *
 	 * @param x position in first dimension
 	 * @param y position in second dimension
 	 */
@@ -66,7 +67,7 @@ public class Vec {
 
 	/**
 	 * set x value separately
-	 * 
+	 *
 	 * @param x
 	 */
 	public void setX( final double x ) {
@@ -79,7 +80,7 @@ public class Vec {
 
 	/**
 	 * set y value separately
-	 * 
+	 *
 	 * @param y new y value
 	 */
 	public void setY( final double y ) {
@@ -110,7 +111,7 @@ public class Vec {
 
 	/**
 	 * scalar product between two Vecs in cartesian coordinates
-	 * 
+	 *
 	 * @param a
 	 * @param b
 	 * @return
@@ -135,7 +136,7 @@ public class Vec {
 
 	/**
 	 * compute component maximum
-	 * 
+	 *
 	 * @param a first vector
 	 * @param b seconde vector
 	 * @return vector consisting of each maximum
@@ -157,7 +158,7 @@ public class Vec {
 
 	/**
 	 * compute component minimum
-	 * 
+	 *
 	 * @param a first vector
 	 * @param b second vector
 	 * @return vector consisting of each minimum
@@ -196,7 +197,7 @@ public class Vec {
 
 	/**
 	 * component wise division
-	 * 
+	 *
 	 * @param a Vector
 	 * @param s scale
 	 * @return a./s
@@ -209,7 +210,7 @@ public class Vec {
 
 	/**
 	 * component wise inversion
-	 * 
+	 *
 	 * @param r vector to be inverted
 	 * @return 1./r
 	 */
@@ -219,7 +220,7 @@ public class Vec {
 
 	/**
 	 * negation of each component
-	 * 
+	 *
 	 * @param t vector to be negated
 	 * @return -t
 	 */
@@ -229,7 +230,7 @@ public class Vec {
 
 	/**
 	 * component wise multiplication
-	 * 
+	 *
 	 * @param a vector to be multiplied
 	 * @param s scale
 	 * @return a.*a

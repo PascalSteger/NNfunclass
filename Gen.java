@@ -1,7 +1,8 @@
 /**
  * Gen: hold all routines on gen-manipulation
- * 
+ *
  * @author psteger
+ * @copyright GPL v3.0
  */
 public class Gen {
 	private final int	dim_;
@@ -17,7 +18,7 @@ public class Gen {
 
 	/**
 	 * constructor used with a given gen size
-	 * 
+	 *
 	 * @param dim size of gen
 	 */
 	public Gen(final int dim) {
@@ -27,7 +28,7 @@ public class Gen {
 
 	/**
 	 * copy constructor
-	 * 
+	 *
 	 * @param x gen to be replicated
 	 */
 	public Gen(final Gen x) {
@@ -48,7 +49,7 @@ public class Gen {
 	/**
 	 * cross *this gen with another one do not forget to update other gen as
 	 * well!
-	 * 
+	 *
 	 * @param y other gen
 	 * @param pos position of cut
 	 * @return
@@ -64,7 +65,7 @@ public class Gen {
 
 	/**
 	 * mutation of a gene at a given position
-	 * 
+	 *
 	 * @param pos position inside gen that is mutated
 	 * @return this gen, after mutation
 	 */
