@@ -1,0 +1,17 @@
+\BOOKMARK [2][]{Outline0.1}{Introduction}{}
+\BOOKMARK [3][]{Outline0.1.1.4}{Neural Network: Topology}{Outline0.1}
+\BOOKMARK [3][]{Outline0.1.2.5}{Backpropagation}{Outline0.1}
+\BOOKMARK [2][]{Outline0.2}{Methods}{}
+\BOOKMARK [3][]{Outline0.2.1.7}{Functions}{Outline0.2}
+\BOOKMARK [3][]{Outline0.2.2.8}{Program Flux}{Outline0.2}
+\BOOKMARK [2][]{Outline0.3}{Output}{}
+\BOOKMARK [3][]{Outline0.3.1.13}{Logic Functions on Two Input Neurons \(a,b\)}{Outline0.3}
+\BOOKMARK [3][]{Outline0.3.2.14}{Output Window}{Outline0.3}
+\BOOKMARK [3][]{Outline0.3.3.15}{Applied on Training Data}{Outline0.3}
+\BOOKMARK [3][]{Outline0.3.4.16}{Applied on Noisy Data}{Outline0.3}
+\BOOKMARK [2][]{Outline0.4}{Errors}{}
+\BOOKMARK [3][]{Outline0.4.1.18}{Parametrization of Sigmoid Function}{Outline0.4}
+\BOOKMARK [3][]{Outline0.4.2.19}{Learning Rate, Number of Iterations}{Outline0.4}
+\BOOKMARK [3][]{Outline0.4.3.20}{Number of Hidden Neurons}{Outline0.4}
+\BOOKMARK [2][]{Outline0.5}{To Be Done}{}
+\BOOKMARK [3][]{Outline0.5.1.21}{Projects}{Outline0.5}

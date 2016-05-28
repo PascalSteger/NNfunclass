@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{benioff1998}
+P.~Benioff.
+\newblock Models of quantum turing machines.
+\newblock {\em Fortsch. Phys.}, 46:423--442, 2007.
+
+\bibitem{deutsch1985}
+D.~Deutsch.
+\newblock Quantum theory, the church-turing principle and the universal quantum
+  computer.
+\newblock {\em Proc. R. Soc. Lond. A}, 400:97--117, 1985.
+
+\bibitem{deutsch1989}
+D.~Deutsch.
+\newblock Quantum computation networks.
+\newblock {\em Proc. R. Soc. Lond. A}, 425:73--90, 1989.
+
+\bibitem{yao1993}
+A.~C. Yao.
+\newblock Quantum circuit complexity.
+\newblock {\em Proc. of the 34th Ann. Symp. on Found. of Comp. Sc. (FOCS)},
+  pages 352--361, 1993.
+
+\end{thebibliography}

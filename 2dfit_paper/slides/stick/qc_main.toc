@@ -1,0 +1,16 @@
+\beamer@endinputifotherversion {3.01pt}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{overview}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{literature}{3}{0}{1}
+\beamer@subsectionintoc {1}{3}{two basic models}{4}{0}{1}
+\beamer@sectionintoc {2}{Quantum Gates}{11}{0}{2}
+\beamer@subsectionintoc {2}{1}{definitions}{14}{0}{2}
+\beamer@subsectionintoc {2}{2}{Toffoli- and $Q$-gate}{20}{0}{2}
+\beamer@subsectionintoc {2}{3}{universality}{22}{0}{2}
+\beamer@sectionintoc {3}{Quantum Turing Machine}{35}{0}{3}
+\beamer@subsectionintoc {3}{1}{Church-Turing}{36}{0}{3}
+\beamer@subsectionintoc {3}{2}{step operator}{37}{0}{3}
+\beamer@subsectionintoc {3}{3}{dynamics}{38}{0}{3}
+\beamer@sectionintoc {4}{Complexity}{40}{0}{4}
+\beamer@subsectionintoc {4}{2}{theorems}{43}{0}{4}
+\beamer@subsectionintoc {4}{3}{Everett's interpretation; stock market}{44}{0}{4}

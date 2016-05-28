@@ -1,0 +1,19 @@
+all: make1 make2 make3 make4 make5 make6 makea e1.txt e2.txt ea.txt
+
+make1: make1.gp
+	gnuplot make1.gp
+make2: make2.gp
+	gnuplot make2.gp
+make3: make3.gp
+	gnuplot make3.gp
+make4: make4.gp
+	gnuplot make4.gp
+make5: make5.gp
+	gnuplot make5.gp
+make6: make6.gp
+	gnuplot make6.gp
+makea: makea.gp
+	gnuplot makea.gp
+
+clean:
+	rm *.aux *.log *~

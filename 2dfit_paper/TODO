@@ -1,0 +1,41 @@
+2d function fitting using neural networks
+=========================================
+
+preparation for project
+=======================
+[x] timeline
+[x] create overview of different codes seen
+[x] constrain set of easy functions to be learned in the beginning
+
+write program
+=============
+[x] set up JAVA environment
+[x] basic architecture, flow control diagram
+
+[x] preparation routines
+[x] useful output function
+[x] check NN with all basic two-argument logic functions
+[x] constrain yourself to a given sampling in x-direction
+[x] let apply for all functions, with sensible output (to be included in paper)
+
+test program
+============
+[x] create sample input data, 2D vectors with noise
+[x] sample runs
+[x] runtime class, depending on input length/function used
+
+write report
+============
+[x] search literature
+[x] search last publications by R. Stoop
+[x] get journal style templates, with examples
+[x] include bibliography
+[x] check with prescriptions
+
+[x] get reference Stoop 2003
+[x] notation for f_{TD}
+[x] notation n_it, N_it, with rm
+[x] diagram of main program architecture
+[x] dependence on noise for randomized input
+[x] dependence on number of hidden neurons
+[x] subsections

@@ -1,0 +1,18 @@
+\beamer@endinputifotherversion {3.07pt}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Neural Network: Topology}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Backpropagation}{5}{0}{1}
+\beamer@sectionintoc {2}{Methods}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Functions}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Program Flux}{8}{0}{2}
+\beamer@sectionintoc {3}{Output}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{Logic Functions on Two Input Neurons $(a,b)$}{13}{0}{3}
+\beamer@subsectionintoc {3}{2}{Output Window}{14}{0}{3}
+\beamer@subsectionintoc {3}{3}{Applied on Training Data}{15}{0}{3}
+\beamer@subsectionintoc {3}{4}{Applied on Noisy Data}{16}{0}{3}
+\beamer@sectionintoc {4}{Errors}{17}{0}{4}
+\beamer@subsectionintoc {4}{1}{Parametrization of Sigmoid Function}{18}{0}{4}
+\beamer@subsectionintoc {4}{2}{Learning Rate, Number of Iterations}{19}{0}{4}
+\beamer@subsectionintoc {4}{3}{Number of Hidden Neurons}{20}{0}{4}
+\beamer@sectionintoc {5}{To Be Done}{21}{0}{5}
+\beamer@subsectionintoc {5}{1}{Projects}{21}{0}{5}

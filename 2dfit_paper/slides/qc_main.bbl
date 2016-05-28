@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{Jones1990}
+R.~D.~Jones et~al.
+\newblock Function approximation and time series prediction with neural
+  networks.
+\newblock {\em Proc. Int. Joint Conf. on Neural Networks}, 1990.
+
+\bibitem{Laemmel2004}
+U.~L\"ammel and J.~Cleve.
+\newblock {\em K\"unstliche Intelligenz}.
+\newblock Carl Hanser Verlag M\"unchen Wien, 2004.
+
+\bibitem{Rojas1996}
+R.~Rojas.
+\newblock {\em Neural Networks - A Systematic Introduction}.
+\newblock Springer-Verlag, Berlin, New-York, 1996.
+
+\bibitem{Stoop2010}
+R.~Stoop.
+\newblock {\em Theorie und Simulation Neuronaler Netze}.
+\newblock lecture notes, 2010.
+
+\end{thebibliography}
