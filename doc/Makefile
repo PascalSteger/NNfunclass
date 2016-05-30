@@ -1,10 +1,9 @@
 # makefile for latex files
-# modified from a Makefile by H. Katzgraber 1999
 
-# choose compiler 
-CC = latex 
+# choose compiler
+CC = latex
 
-# source files ( no .tex extension!!!)
+# source files (no .tex extension!)
 SRC = main
 BIB = $(main.bib)
 
